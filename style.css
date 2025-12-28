@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg , #ff878c , #ff7be3 , #f1c40f);
+}
+
+.clock-container{
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 40px;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.clock-container h1{
+    margin-bottom: 10px;
+}
+
+.time{
+font-size: 3rem;
+margin: 20px 0;
+}
+
+.timezone-section{
+    margin-top: 20px;
+
+}
+
+select{
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-right: 10px;
+}
